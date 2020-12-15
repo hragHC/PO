@@ -1,0 +1,16 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <p>Hello Please Fill this form.</p>
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdLOibQ2UIMHOCxCqxuU0SGtiF-sXqzsuRZoSCgLpFhWUyIHQ/formResponse" method="post">
+            <label>Type here</label>
+            
+            <input type ="text" name="entry.321556497" placeholder="Color" > 
+            
+            <button type="submit">Send</button>
+        
+        </form>
+    </body>
+</html>
