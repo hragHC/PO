@@ -1,16 +1,185 @@
 <html>
     <head>
-
+        <style>
+                @font-face {font-family: "Myriad Pro"; 
+                src: url("//db.onlinewebfonts.com/t/fd7fc7a06f1ddd21d4133e114e4501f0.eot");
+                }
+                
+                body{
+                    font-family:Myriad Pro;
+                    color:#0e3f64;
+                }
+                label {
+                    font-size:14px;
+                }
+                input {
+                    font-size: 14px;
+                    height : 20px;
+                }
+                #btn{
+                    cursor: pointer;
+                }
+        </style>       
     </head>
     <body>
-        <p>Hello Please Fill this form.</p>
-        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdLOibQ2UIMHOCxCqxuU0SGtiF-sXqzsuRZoSCgLpFhWUyIHQ/formResponse" method="post">
-            <label>Type here</label>
             
-            <input type ="text" name="entry.321556497" placeholder="Color" > 
-            
-            <button type="submit">Send</button>
+        <img id="bg_img1" style="position: absolute;" 
+            src="https://www.dropbox.com/pri/get/po.jpeg?_subject_uid=352185688&w=AABUuhRE2zxud29uJTVG1gunyS67k8ncp19UauLUyDGRdA">
+        <div id="title" style="position: absolute; width:800px;">
+            <h1 id="title1" style="position: absolute; font-weight: bold; color:#0e3f64; font-size: 40px;">Job Order Form</h1>
+            <br><br>
+            <p id="title2" style="position: absolute; color:#0e3f64; font-size: 20px;">Kindly fill the below information</p>
+        </div>
+        <form action="https://docs.google.com/forms/u/4/d/e/1FAIpQLSe5odTZG8716F9iDzm9I8HWk45GFYexPNb6CY3N6MaBQM6ygw/formResponse" method="post">
+       
+            <label id="l1" style="position: absolute;">Company Name:</label>        <input id="i1" type ="text" name="entry.348549501" style="position: absolute; ">
+            <label id="l2" style="position: absolute;">Person in charge:</label>    <input id="i2" type ="text" name="entry.916178950" style="position: absolute; ">
+            <label id="l3" style="position: absolute;">Email:</label>               <input id="i3" type ="text" name="entry.1245334986" style="position: absolute; ">
+            <label id="l4" style="position: absolute;">Contact Number:</label>      <input id="i4" type ="text" name="entry.1552898313" style="position: absolute; ">
         
-        </form>
+            <label id="l5" style="position: absolute;">Opening Position:</label>    <input id="i5" style="position: absolute; " type ="text" name="entry.465811087">
+            <label id="l6" style="position: absolute;">Location:</label>            <input id="i6" style="position: absolute; " type ="text" name="entry.1234793642">
+            <label id="l7" style="position: absolute;">Quantity:</label>            <input id="i7" style="position: absolute; " type ="text" name="entry.231747496">
+
+            <textarea id="i8" name="entry.131807892" cols="30" rows="10" style="position: absolute; resize: none;"></textarea>
+            <!-- <input id="i8" style="position: absolute;" type ="text" name="entry.131807892"> -->
+            <label id="l9" style="position: absolute;">Desired Skills & Previous Experience:</label>        <input id="i9" style="position: absolute; " type ="text" name="entry.192455770">
+            <label id="l10" style="position: absolute;">Salary Range:</label>                               <input id="i10" style="position: absolute; " type ="text" name="entry.104589687"> 
+            <label id="l11" style="position: absolute;">Currency:</label>                                   <input id="i11" style="position: absolute; " type ="text" name="entry.619446592">                                                            
+            <button id="btn" type="submit" style="font-weight: bold; position: absolute; border-radius: 15px; 
+            font-size:28px; background-color: #0e3f64; color: white; ">SUBMIT</button>                    
+            
+            <!-- <p>Hello Please Fill this form.</p>
+                            
+                                <label>Person in charge:</label> 
+                                    <input id="person_in_charge" type ="text" name="entry.916178950"><br>
+                                <label>Email:</label> 
+                                    <input id="email" type ="text" name="entry.1245334986"><br>
+                                <label>Contact Number:</label> 
+                                    <input id="contact_number" type ="text" name="entry.1552898313"><br>
+                                <label>Opening Position:</label> 
+                                    <input id="opening_position" type ="text" name="entry.465811087"><br> 
+                                <label>Location:</label>
+                                    <input id="location" type ="text" name="entry.1234793642"><br> 
+                                <label>Quantity:</label>
+                                    <input id="quantity" type ="text" name="entry.231747496"> <br>
+                                <label>Job Summary:</label>
+                                    <input id="job_summary" type ="text" name="entry.131807892"><br> 
+                                <label>Desired Skills & Previous Experience</label>
+                                    <input id="skils_and_experience" type ="text" name="entry.192455770"><br> 
+                                <label>Salary Range:</label> 
+                                    <input id="salary_range" type ="text" name="entry.104589687"> <br>
+                                <label>Currency:</label> 
+                                    <input id="currency" type ="text" name="entry.619446592"><br>
+                                <button type="submit">Send</button>
+                                -->
+            </form>
+            <div id="title3" style="background-color: #002b7a; position: absolute;">
+                <p id="p1" style="color:white; font-size: 20px; position: relative;">Job details</p>
+            </div>
+            <div id="title4" style="background-color: #002b7a; position: absolute;">
+                    <p id="p2" style="color:white; font-size: 20px; position: relative;">Job Summary:</p>
+            </div>
+            <div id="title5" style="position: absolute;">
+                <p id="p3" style="color:black; font-size: 12px; position: relative;">
+                    *****************************************************************************************************************<br>
+                    1.We will get back to you with the short listed candidates, maximum in 10 working days<br>
+                    2.You're kindly asked to settle 20% down payment upon submission of this form.<br>
+                    3.Full payment should be settled upon 7 days since workers starting date<br>
+                    *****************************************************************************************************************<br>
+                </p>
+            </div>
+            <div id="title6" style="position: absolute;">
+                <p id="p4" style="color:black; font-size: 12px; position: relative;">
+                    Riyadh, KSA <br>
+                    (00) 966 566 521 561<br>
+                    info@people-operations.com <br>
+                </p>
+            </div>
+            <div id="f1" style="position: absolute; background-color: #0e3f64; width:20px; height:2px;"></div>
+            <div id="f2" style="position: absolute; background-color: #0e3f64; width:20px; height:2px;"></div>
+            <div id="f3" style="position: absolute; background-color: #0e3f64; width:20px; height:2px;"></div>
+            <script>
+                    var bg_img1 = document.getElementById("bg_img1");
+                    bg_img1.style.width = (0.61*innerWidth)+"px";
+                    bg_img1.style.height = (1.4*innerHeight)+"px";
+                    bg_img1.style.left = (0.18*window.innerWidth)+"px";
+
+                    var title = document.getElementById("title");
+                    title.style.left = (0.225*innerWidth)+"px";
+                    title.style.top = (0.09*innerHeight)+"px";
+                    var title1 = document.getElementById("title1");
+                    title1.style.top = "-10px";
+                    var l1 = document.getElementById("l1"); var i1=document.getElementById("i1"); 
+                    var l2 = document.getElementById("l2"); var i2=document.getElementById("i2");
+                    var l3 = document.getElementById("l3"); var i3=document.getElementById("i3");
+                    var l4 = document.getElementById("l4"); var i4=document.getElementById("i4");
+                    l1.style.top = (title.offsetTop + 2.5*title.offsetHeight)+"px"; 
+                    i2.style.top = i1.style.top = i3.style.top = i4.style.top = (l1.offsetTop + 1.5*l1.offsetHeight)+"px";
+                    l4.style.top = l3.style.top = l2.style.top = l1.style.top;
+                    i1.style.width = i2.style.width = i3.style.width = i4.style.width = (bg_img1.offsetWidth/6.8)+"px";
+                    i1.style.left = l1.style.left = title.style.left;
+                    l2.style.left = i2.style.left = (i1.offsetLeft + 1.5*i1.offsetWidth)+"px";
+                    l3.style.left = i3.style.left = (i2.offsetLeft + 1.5*i2.offsetWidth)+"px";
+                    l4.style.left = i4.style.left = (i3.offsetLeft + 1.5*i3.offsetWidth)+"px";
+                    var title3 = document.getElementById("title3");
+                    title3.style.width = (0.95*bg_img1.offsetWidth)+"px";   
+                    title3.style.top = (2.5*i1.offsetHeight + i1.offsetTop) + "px";
+                    title3.style.left = (0.196*window.innerWidth)+"px";
+                    var p1 = document.getElementById("p1");
+                    p1.style.left = "45px"; p1.style.top = "-8px";
+                    title3.style.height = (1.8*p1.offsetHeight)+"px";
+                    var l5 = document.getElementById("l5"); var i5=document.getElementById("i5"); 
+                    var l6 = document.getElementById("l6"); var i6=document.getElementById("i6");
+                    var l7 = document.getElementById("l7"); var i7=document.getElementById("i7");
+                    i5.style.left = l5.style.left = title.style.left;
+                    l5.style.top = (1.4*title3.offsetHeight + title3.offsetTop)+"px";
+                    i5.style.top = (l5.offsetTop + 1.5*l5.offsetHeight)+"px";
+                    i5.style.width = (4*l5.offsetWidth)+"px";
+                    i6.style.top = i7.style.top = i5.style.top; l6.style.top = l7.style.top = l5.style.top;
+                    l6.style.left = i6.style.left = (i5.offsetLeft + 1.05*i5.offsetWidth)+"px";
+                    i6.style.width = (4*l6.offsetWidth)+"px";
+                    l7.style.left = i7.style.left = (i6.offsetLeft + 1.3*i6.offsetWidth)+"px";
+                    i7.style.width = (0.6*l7.offsetWidth)+"px";
+                    var title4 = document.getElementById("title4");
+                    title4.style.width = (0.52*innerWidth)+"px"; title4.style.height = title3.style.height;
+                    title4.style.top = (2*i5.offsetHeight + i5.offsetTop) + "px";
+                    title4.style.left = i5.style.left;
+                    var p2 = document.getElementById("p2");
+                    p2.style.left = "24px"; p2.style.top = "-8px";
+                    var i8 = document.getElementById("i8");
+                    i8.style.left = title4.style.left;
+                    i8.style.top = (title4.offsetTop + 1.3*title4.offsetHeight)+"px";
+                    i8.style.width = title4.style.width;
+                    i8.style.height = (3*title4.offsetHeight)+"px";
+                    var l9 = document.getElementById("l9"); var i9=document.getElementById("i9"); 
+                    var l10 = document.getElementById("l10"); var i10=document.getElementById("i10");
+                    var l11 = document.getElementById("l11"); var i11=document.getElementById("i11");
+                    l9.style.top = (1.1*i8.offsetHeight + i8.offsetTop)+"px";
+                    l10.style.top = l11.style.top = l9.style.top;
+                    i9.style.left = l9.style.left = title.style.left;
+                    i9.style.width = (2*l9.offsetWidth)+"px";
+                    i9.style.top = (l9.offsetTop + 1.3*l9.offsetHeight)+"px";
+                    i10.style.top = i11.style.top = i9.style.top;
+                    l10.style.left = i10.style.left = (i9.offsetLeft + 1.04*i9.offsetWidth)+"px";
+                    l11.style.left = i11.style.left = (i10.offsetLeft + 1.07*i10.offsetWidth)+"px";
+                    var title5 = document.getElementById("title5");
+                    var p3 = document.getElementById("p3");
+                    title5.style.width = (0.68*bg_img1.offsetWidth)+"px";
+                    title5.style.top = (i9.offsetTop + 4*i9.offsetHeight)+"px";
+                    title5.style.left = (i9.offsetLeft + 30)+"px";
+                    var title6 = document.getElementById("title6");
+                    title6.style.top = (title5.offsetTop + 2.47*title5.offsetHeight)+"px";
+                    title6.style.left = (bg_img1.offsetLeft + bg_img1.offsetWidth - 1.5*title6.offsetWidth)+"px";
+                    var f1 = document.getElementById("f1"); var f2 = document.getElementById("f2"); var f3 = document.getElementById("f3"); 
+                    f1.style.top = (title6.offsetTop + (1.17*title6.offsetHeight)/5)+"px";
+                    f2.style.top = (title6.offsetTop + (2.25*title6.offsetHeight)/5)+"px";
+                    f3.style.top = (title6.offsetTop + (3.3*title6.offsetHeight)/5)+"px";
+                    f3.style.left = f2.style.left = f1.style.left = (title6.offsetLeft - 1.2*f1.offsetWidth)+"px";
+                    var btn = document.getElementById("btn");
+                    btn.style.width = (0.25*title5.offsetWidth)+"px"; btn.style.height = (0.6*title5.offsetHeight)+"px";
+                    btn.style.left = (bg_img1.offsetLeft + 0.38*bg_img1.offsetWidth)+"px";
+                    btn.style.top = (title5.offsetTop + 1.5*title5.offsetHeight)+"px";
+            </script>
     </body>
 </html>
