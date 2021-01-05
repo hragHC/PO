@@ -79,8 +79,8 @@
                         if (window.innerWidth >= 1108 && window.innerWidth > window.innerHeight){ modeIndex=1; desktopMode(); }
                     }
                     window.onload = function(){
-                        var bBox = bg_img.getBBox();
-                        alert('width is ' + bBox.width + ' and height is ' + bBox.height + "\n" +"window width is "+window.innerWidth + " window height is "+window.innerHeight);
+                        // var bBox = bg_img.getBBox();
+                        // alert('width is ' + bBox.width + ' and height is ' + bBox.height + "\n" +"window width is "+window.innerWidth + " window height is "+window.innerHeight);
                         if (window.innerWidth <window.innerHeight || window.innerWidth < 1108 ){ modeIndex=1; phoneMode(); }
                         if (window.innerWidth >= 1108 && window.innerWidth > window.innerHeight){ modeIndex=1; desktopMode(); }
                     }
