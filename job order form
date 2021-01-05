@@ -15,7 +15,7 @@
                 main1.height = "725";
             }
             function phoneMode(){
-                main1.height = "725";
+                main1.style.height = (0.75*window.innerHeight)+"px";
             }
       </script>
    </body>
