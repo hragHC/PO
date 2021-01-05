@@ -8,15 +8,15 @@
         width = "1522" height = "725" style="border:0; overflow: hidden;">
       </iframe>
       <script>
-          var main1 = document.getElementById("main1");
-            if (window.innerWidth <window.innerHeight ){ modeIndex=1; phoneMode(); }
-            if (window.innerWidth >= 1108 && window.innerWidth > window.innerHeight){ modeIndex=1; desktopMode(); }
-            function desktopMode(){
-                // main1.height = "725";
-            }
-            function phoneMode(){
-                main1.height = 900;
-            }
+        //   var main1 = document.getElementById("main1");
+        //     if (window.innerWidth <window.innerHeight ){ modeIndex=1; phoneMode(); }
+        //     if (window.innerWidth >= 1108 && window.innerWidth > window.innerHeight){ modeIndex=1; desktopMode(); }
+        //     function desktopMode(){
+        //         // main1.height = "725";
+        //     }
+        //     function phoneMode(){
+        //         main1.height = 900;
+        //     }
       </script>
    </body>
 	
