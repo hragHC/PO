@@ -62,7 +62,7 @@
                     </div>
                 </form>
             </div>    
-            <div id="f" style="display: none">
+            <div id="main2" style="display: none">
                 <iframe id="m1" src = "https://htmlpreview.github.io/?https://github.com/hragHC/PO/blob/main/poform1" 
                     width = "1522" height = "725" style="border:0; overflow: hidden;">
                 </iframe>
@@ -71,7 +71,7 @@
           <script>
 
             var main1 = document.getElementById("main1");
-            var main2 = document.getElementById("main2");
+            var m1 = document.getElementById("m1");
             var m = document.getElementById("m");
                     // var svgDiv = document.getElementById("svgDiv");
                     var bg_img = document.getElementById("bg_img");
@@ -107,7 +107,7 @@
                   // document.getElementById("main").style.left = "40px";
                   // bg_img.style.left = (-0.34*window.innerWidth)+"px";
                     main1.style.display = "block";
-                    main2.style.display = "none";
+                    m1.style.display = "none";
                     main1.style.width = m.style.width = (document.body.scrollWidth)+"px"; 
                     main1.style.height = m.style.height = (document.body.scrollHeight + document.body.style.marginBottom)+"px";
                     // svgDiv.style.left = "0px"; svgDiv.style.top = "0px";  svgDiv.style.margin="0px";
@@ -160,9 +160,9 @@
                 }
                 function phoneMode(){
                     main1.style.display = "none";
-                    main2.style.display = "block";
-                    // var f = document.getElementById("f");
-                    // f.style.height = (0.7*window.innerHeight)+"px";
+                    m1.style.display = "block";
+                    // var m1 = document.getElementById("m1");
+                    m1.style.height = (0.7*window.innerHeight)+"px";
                 }    
             </script>
     </body>
