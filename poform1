@@ -161,8 +161,8 @@
                 function phoneMode(){
                     main1.style.display = "none";
                     main2.style.display = "block";
-                    var f = document.getElementById("f");
-                    f.style.height = (0.7*window.innerHeight)+"px";
+                    // var f = document.getElementById("f");
+                    // f.style.height = (0.7*window.innerHeight)+"px";
                 }    
             </script>
     </body>
